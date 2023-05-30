@@ -3,7 +3,7 @@
 /* Styling for entire HTML */
 html{
 text-align: center;
-background-image: url(Images/37272e28-e46f-4842-9013-b2b5d56a3bcb.jpg);
+background-image: url(37272e28-e46f-4842-9013-b2b5d56a3bcb.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -59,7 +59,7 @@ background-size: cover;
 /* Add an external font rule */
 @font-face {
     font-family: Alumnisans ;
-    src: url(Fonts/AlumniSansInlineOne-Italic.ttf);
+    src: url(AlumniSansInlineOne-Italic.ttf);
 }
 
 /* Styling for header one */
