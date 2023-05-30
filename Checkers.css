@@ -1,0 +1,75 @@
+/* Megan M Boyer - CSC256 Checkers Game - 5/23/2023 */
+
+/* Styling for entire HTML */
+html{
+text-align: center;
+background-image: url(Images/37272e28-e46f-4842-9013-b2b5d56a3bcb.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Styling for whole board */
+#checkersBoard{
+    border: 5px groove white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 413px;
+    height: 418px;
+    margin: auto;
+}
+
+/* Styling for all squares on board */
+.square{
+    border: black 1px double; 
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+/* Background color for squares that have peices */
+.bg{
+    background-color:rgb(193, 15, 15);
+}
+
+/* Background color for squares without pieces */
+.bg2{
+    background-color:rgb(25, 79, 159);
+}
+
+/* Styling for peices */
+.checker{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    margin:2.5px;
+    box-shadow: 4px 4px 4px black;
+}
+
+/* Styling for checker-i pieces */
+.checker-i{
+    background-color: white;
+}
+
+/* Styling for checker-x pieces */
+.checker-x{
+    background-color: blue;
+}
+
+/* Add an external font rule */
+@font-face {
+    font-family: Alumnisans ;
+    src: url(Fonts/AlumniSansInlineOne-Italic.ttf);
+}
+
+/* Styling for header one */
+h1{
+    font-family: Alumnisans;
+    font-weight: lighter;
+    color:red;
+    font-size: 40px;
+    -webkit-text-stroke: 0.5px navy;
+    background-color: navy;
+    border:8px white groove;
+    margin-bottom: 40px;
+}
